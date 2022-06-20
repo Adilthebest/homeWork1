@@ -23,7 +23,7 @@ class Presenter {
         model.decrement()
         view.updateCount(model.getCount().toString())
         if (model.getCount()==-5){
-            view.showToastMinus()
+            view.showToastMinus()///
         }
     }
     fun attachView(view: MainActivity){
